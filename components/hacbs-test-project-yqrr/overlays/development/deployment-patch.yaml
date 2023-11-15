@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-yqrr
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rycole-appstudio/integration1-wvzm-tenant/integ-app-lewu/hacbs-test-project-yqrr@sha256:bf3ecdd0e34a1650f8c7fe6ed0645d46cb99f0e0d82799d497b660dc230e6881
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
